@@ -1,0 +1,8 @@
+{
+ "walltime": "Wall time of one v2 wave (6 cards, card start to landed). Today about 4-5 hours, mostly builds, parity checks (funcdiff) and tests. Goal: builds plus tests in 1 hour for the whole wave. Find where the time goes (critical path per step) and how to cut it.",
+ "fleet": "The build fleet: local host (8 cores), build2 (4 slots), build3 (6 slots), and soon a dedicated server. How to schedule builds, funcdiff and tests over all hosts, keep caches warm (objsync, build cache, PDB/obj reuse), and survive a dead host, so the 1 hour goal holds.",
+ "pipeline": "The card pipeline order: author, build, parity, review, land. Which steps wait for each other without need? Pipelining, speculative builds, incremental and partial builds (only changed objects, only changed functions in funcdiff), test sharding, early failure.",
+ "cost": "Tokens per MATCH. The manual old-system wave of 2026-11-26 cost 84k tokens nocr per MATCH (4.89M for 58 MATCH). v2 cost 136-160k. Goal: v2 cheaper than 84k AND faster than the manual wave. Find the biggest token sinks (author context, reviews, repairs, retries) and fixes.",
+ "safety": "Speed and cost cuts must not weaken correctness: no false MATCH, the skeptic/review gate keeps its power, PDB names, server safety checks, reproducible proofs. Find which proposed shortcuts are safe and which break a guarantee, and how to test that.",
+ "measure": "Measurement: can we measure wall time per step, tokens per step and MATCH per card today? Missing timestamps (7 cards have at=0), meter gaps. What instrumentation is needed so each speed or cost change is proven with numbers?"
+}

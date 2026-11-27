@@ -1,0 +1,234 @@
+  call r1-fleet-P-break: 7 turns, 14865 tokens nocr
+  call r1-walltime-P-build: 4 turns, 5274 tokens nocr
+  call r1-fleet-S-code: 29 turns, 59785 tokens nocr
+  call r1-fleet-judge: 6 turns, 15310 tokens nocr
+r1 fleet    L3 P-break/S-code score 0.86 verified True easy False gain medium
+  call r1-pipeline-P-cost: 3 turns, 22021 tokens nocr
+  call r1-cost-P-build: 7 turns, 17719 tokens nocr
+  call r1-pipeline-S-design: 22 turns, 55418 tokens nocr
+  call r1-cost-S-data: 14 turns, 58296 tokens nocr
+  call r1-pipeline-judge: 8 turns, 19148 tokens nocr
+r1 pipeline L3 P-cost/S-design score 0.82 verified True easy False gain medium
+  call r1-cost-judge: 5 turns, 17125 tokens nocr
+r1 cost     L3 P-build/S-data score 0.85 verified True easy False gain medium
+  call r1-measure-P-cost: 7 turns, 14374 tokens nocr
+  call r1-walltime-S-data: 3 turns, 4733 tokens nocr
+  call r1-safety-P-break: 15 turns, 33022 tokens nocr
+  call r1-measure-S-design: 39 turns, 95174 tokens nocr
+  call r1-measure-judge: 4 turns, 15176 tokens nocr
+r1 measure  L3 P-cost/S-design score 0.85 verified True easy False gain medium
+  call r1-walltime-judge: 14 turns, 18130 tokens nocr
+r1 walltime L3 P-build/S-data score 0.74 verified True easy False gain medium
+  call r1-safety-S-code: 4 turns, 9704 tokens nocr
+  call r1-safety-judge: 5 turns, 14891 tokens nocr
+r1 safety   L3 P-break/S-code score 0.86 verified True easy False gain medium
+round 1 done; curriculum {'walltime': 3, 'fleet': 4, 'pipeline': 4, 'cost': 4, 'safety': 4, 'measure': 4}
+  call r2-walltime-P-break: 10 turns, 19542 tokens nocr
+  call r2-pipeline-P-build: 3 turns, 25408 tokens nocr
+  call r2-fleet-P-cost: 3 turns, 3363 tokens nocr
+  call r2-fleet-S-data: 25 turns, 65111 tokens nocr
+  call r2-fleet-judge: 4 turns, 15122 tokens nocr
+r2 fleet    L4 P-cost/S-data score 0.80 verified True easy False gain medium
+  call r2-cost-P-break: 12 turns, 26312 tokens nocr
+  call r2-pipeline-S-code: 3 turns, 9467 tokens nocr
+  call r2-pipeline-judge: 5 turns, 19871 tokens nocr
+r2 pipeline L4 P-build/S-code score 0.82 verified True easy False gain low
+  call r2-safety-P-cost: 9 turns, 24967 tokens nocr
+  call r2-cost-S-design: 23 turns, 71127 tokens nocr
+  call r2-cost-judge: 4 turns, 16533 tokens nocr
+r2 cost     L4 P-break/S-design score 0.74 verified True easy False gain low
+  call r2-measure-P-build: 7 turns, 20339 tokens nocr
+  call r2-measure-S-code: 13 turns, 38135 tokens nocr
+  call r2-measure-judge: 4 turns, 16774 tokens nocr
+r2 measure  L4 P-build/S-code score 0.88 verified True easy False gain medium
+  call r2-safety-S-data: 31 turns, 73617 tokens nocr
+  call r2-walltime-S-design: 5 turns, 11628 tokens nocr
+  call r2-walltime-judge: 7 turns, 25065 tokens nocr
+r2 walltime L3 P-break/S-design score 0.80 verified True easy False gain high
+  call r2-safety-judge: 3 turns, 32389 tokens nocr
+r2 safety   L4 P-cost/S-data score 0.85 verified True easy False gain medium
+round 2 done; curriculum {'walltime': 4, 'fleet': 5, 'pipeline': 5, 'cost': 4, 'safety': 5, 'measure': 5}
+  call r3-walltime-P-cost: 7 turns, 34363 tokens nocr
+  call r3-pipeline-P-break: 7 turns, 38796 tokens nocr
+  call r3-pipeline-S-data: 31 turns, 97741 tokens nocr
+  call r3-walltime-S-code: 18 turns, 96194 tokens nocr
+  call r3-walltime-judge: 4 turns, 17676 tokens nocr
+r3 walltime L4 P-cost/S-code score 0.80 verified True easy False gain medium
+  call r3-pipeline-judge: 6 turns, 19207 tokens nocr
+r3 pipeline L5 P-break/S-data score 0.78 verified True easy False gain low
+  call r3-fleet-P-build: 3 turns, 24173 tokens nocr
+  call r3-cost-P-cost: 9 turns, 31830 tokens nocr
+  call r3-safety-P-build: 7 turns, 31369 tokens nocr
+  call r3-cost-S-code: 20 turns, 98154 tokens nocr
+  call r3-fleet-S-design: 20 turns, 82566 tokens nocr
+  call r3-cost-judge: 7 turns, 21042 tokens nocr
+r3 cost     L4 P-cost/S-code score 0.88 verified True easy False gain medium
+  call r3-fleet-judge: 6 turns, 20590 tokens nocr
+r3 fleet    L5 P-build/S-design score 0.80 verified True easy False gain medium
+  call r3-measure-P-break: 7 turns, 26099 tokens nocr
+  call r3-safety-S-design: 23 turns, 79319 tokens nocr
+  call r3-safety-judge: 11 turns, 23991 tokens nocr
+r3 safety   L5 P-build/S-design score 0.85 verified True easy False gain medium
+  call r3-measure-S-data: 3 turns, 5296 tokens nocr
+  call r3-measure-judge: 6 turns, 16442 tokens nocr
+r3 measure  L5 P-break/S-data score 0.80 verified True easy False gain medium
+round 3 done; curriculum {'walltime': 5, 'fleet': 6, 'pipeline': 5, 'cost': 5, 'safety': 6, 'measure': 6}
+  call r4-fleet-P-break: 11 turns, 39488 tokens nocr
+  call r4-walltime-P-build: 9 turns, 43268 tokens nocr
+  call r4-pipeline-P-cost: 16 turns, 52031 tokens nocr
+  call r4-pipeline-S-design: 29 turns, 89793 tokens nocr
+  call r4-pipeline-judge: 7 turns, 18911 tokens nocr
+r4 pipeline L5 P-cost/S-design score 0.82 verified True easy False gain medium
+  call r4-walltime-S-data: 25 turns, 80376 tokens nocr
+  call r4-cost-P-build: 8 turns, 37448 tokens nocr
+  call r4-walltime-judge: 5 turns, 15435 tokens nocr
+r4 walltime L5 P-build/S-data score 0.85 verified True easy False gain high
+  call r4-cost-S-data: 22 turns, 81771 tokens nocr
+  call r4-safety-P-break: 16 turns, 40045 tokens nocr
+  call r4-cost-judge: 8 turns, 24226 tokens nocr
+r4 cost     L5 P-build/S-data score 0.40 verified False easy False gain medium
+  call r4-fleet-S-code: 3 turns, 73966 tokens nocr
+  call r4-measure-P-cost: 9 turns, 32924 tokens nocr
+  call r4-fleet-judge: 8 turns, 16971 tokens nocr
+r4 fleet    L6 P-break/S-code score 0.82 verified True easy False gain medium
+  call r4-safety-S-code: 38 turns, 72219 tokens nocr
+  call r4-safety-judge: 4 turns, 29064 tokens nocr
+r4 safety   L6 P-break/S-code score 0.80 verified True easy False gain high
+  call r4-measure-S-design: 3 turns, 84908 tokens nocr
+  call r4-measure-judge: 6 turns, 18577 tokens nocr
+r4 measure  L6 P-cost/S-design score 0.85 verified True easy False gain low
+round 4 done; curriculum {'walltime': 6, 'fleet': 7, 'pipeline': 6, 'cost': 5, 'safety': 7, 'measure': 7}
+  call r5-fleet-P-cost: 9 turns, 37436 tokens nocr
+  call r5-walltime-P-break: 8 turns, 43056 tokens nocr
+  call r5-pipeline-P-build: 10 turns, 21632 tokens nocr
+  call r5-fleet-S-data: 28 turns, 93756 tokens nocr
+  call r5-fleet-judge: 5 turns, 30624 tokens nocr
+r5 fleet    L7 P-cost/S-data score 0.80 verified True easy False gain medium
+  call r5-cost-P-break: 6 turns, 23179 tokens nocr
+  call r5-pipeline-S-code: 31 turns, 124485 tokens nocr
+  call r5-pipeline-judge: 5 turns, 17213 tokens nocr
+r5 pipeline L6 P-build/S-code score 0.80 verified True easy False gain low
+  call r5-safety-P-cost: 11 turns, 26709 tokens nocr
+  call r5-cost-S-design: 40 turns, 104933 tokens nocr
+  call r5-cost-judge: 6 turns, 37003 tokens nocr
+r5 cost     L5 P-break/S-design score 0.80 verified True easy False gain low
+  call r5-measure-P-build: 9 turns, 47348 tokens nocr
+  call r5-measure-S-code: 3 turns, 68229 tokens nocr
+  call r5-measure-judge: 6 turns, 29748 tokens nocr
+r5 measure  L7 P-build/S-code score 0.87 verified True easy False gain medium
+  call r5-safety-S-data: 3 turns, 80365 tokens nocr
+  call r5-safety-judge: 5 turns, 18441 tokens nocr
+r5 safety   L7 P-cost/S-data score 0.85 verified True easy False gain high
+  call r5-walltime-S-design: 44 turns, 155683 tokens nocr
+  call r5-walltime-judge: 5 turns, 21819 tokens nocr
+r5 walltime L6 P-break/S-design score 0.76 verified True easy False gain low
+round 5 done; curriculum {'walltime': 6, 'fleet': 8, 'pipeline': 7, 'cost': 6, 'safety': 8, 'measure': 8}
+  call r6-fleet-P-build: 6 turns, 41043 tokens nocr
+  call r6-walltime-P-cost: 7 turns, 41392 tokens nocr
+  call r6-pipeline-P-break: 15 turns, 58181 tokens nocr
+  call r6-walltime-S-code: 3 turns, 10202 tokens nocr
+  call r6-walltime-judge: 8 turns, 38101 tokens nocr
+r6 walltime L6 P-cost/S-code score 0.80 verified True easy False gain medium
+  call r6-cost-P-cost: 6 turns, 33497 tokens nocr
+  call r6-fleet-S-design: 36 turns, 83440 tokens nocr
+  call r6-fleet-judge: 6 turns, 18575 tokens nocr
+r6 fleet    L8 P-build/S-design score 0.85 verified True easy False gain high
+  call r6-pipeline-S-data: 39 turns, 100175 tokens nocr
+  call r6-pipeline-judge: 5 turns, 23209 tokens nocr
+r6 pipeline L7 P-break/S-data score 0.85 verified True easy False gain low
+  call r6-measure-P-break: 8 turns, 29125 tokens nocr
+  call r6-safety-P-build: 10 turns, 34662 tokens nocr
+  call r6-cost-S-code: 29 turns, 115657 tokens nocr
+  call r6-safety-S-design: 36 turns, 78050 tokens nocr
+  call r6-safety-judge: 6 turns, 20625 tokens nocr
+r6 safety   L8 P-build/S-design score 0.82 verified True easy False gain medium
+  call r6-cost-judge: 3 turns, 3046 tokens nocr
+r6 cost     L6 P-cost/S-code score 0.80 verified True easy False gain medium
+  call r6-measure-S-data: 4 turns, 16612 tokens nocr
+  call r6-measure-judge: 5 turns, 32663 tokens nocr
+r6 measure  L8 P-break/S-data score 0.83 verified True easy False gain high
+round 6 done; curriculum {'walltime': 7, 'fleet': 9, 'pipeline': 8, 'cost': 7, 'safety': 9, 'measure': 9}
+  call r7-walltime-P-build: 8 turns, 38118 tokens nocr
+  call r7-fleet-P-break: 9 turns, 39956 tokens nocr
+  call r7-pipeline-P-cost: 12 turns, 57381 tokens nocr
+  call r7-pipeline-S-design: 38 turns, 171778 tokens nocr
+  call r7-fleet-S-code: 40 turns, 143528 tokens nocr
+  call r7-pipeline-judge: 6 turns, 34813 tokens nocr
+r7 pipeline L8 P-cost/S-design score 0.80 verified True easy False gain medium
+  call r7-walltime-S-data: 40 turns, 114840 tokens nocr
+  call r7-walltime-judge: 5 turns, 16004 tokens nocr
+r7 walltime L7 P-build/S-data score 0.85 verified True easy False gain high
+  call r7-fleet-judge: 6 turns, 18075 tokens nocr
+r7 fleet    L9 P-break/S-code score 0.78 verified True easy False gain high
+  call r7-safety-P-break: 12 turns, 41423 tokens nocr
+  call r7-measure-P-cost: 6 turns, 34924 tokens nocr
+  call r7-cost-P-build: 13 turns, 40864 tokens nocr
+  call r7-cost-S-data: 23 turns, 101387 tokens nocr
+  call r7-cost-judge: 6 turns, 33850 tokens nocr
+r7 cost     L7 P-build/S-data score 0.82 verified True easy False gain high
+  call r7-measure-S-design: 28 turns, 122843 tokens nocr
+  call r7-measure-judge: 7 turns, 19311 tokens nocr
+r7 measure  L9 P-cost/S-design score 0.80 verified True easy False gain medium
+  call r7-safety-S-code: 31 turns, 121579 tokens nocr
+  call r7-safety-judge: 6 turns, 34308 tokens nocr
+r7 safety   L9 P-break/S-code score 0.74 verified True easy False gain medium
+round 7 done; curriculum {'walltime': 8, 'fleet': 9, 'pipeline': 9, 'cost': 8, 'safety': 9, 'measure': 10}
+  call r8-walltime-P-break: 10 turns, 44382 tokens nocr
+  call r8-pipeline-P-build: 11 turns, 51359 tokens nocr
+  call r8-fleet-P-cost: 10 turns, 43738 tokens nocr
+  call r8-walltime-S-design: 34 turns, 100720 tokens nocr
+  call r8-walltime-judge: 7 turns, 35337 tokens nocr
+r8 walltime L8 P-break/S-design score 0.86 verified True easy False gain medium
+  call r8-cost-P-break: 7 turns, 14134 tokens nocr
+  call r8-cost-S-design: 29 turns, 99291 tokens nocr
+  call r8-cost-judge: 7 turns, 32654 tokens nocr
+r8 cost     L8 P-break/S-design score 0.80 verified True easy False gain high
+  call r8-safety-P-cost: 15 turns, 53665 tokens nocr
+  call r8-fleet-S-data: 41 turns, 76993 tokens nocr ERROR
+  call r8-pipeline-S-code: 2 turns, 98514 tokens nocr
+  call r8-pipeline-judge: 6 turns, 32198 tokens nocr
+r8 pipeline L9 P-build/S-code score 0.85 verified True easy False gain high
+  call r8-measure-P-build: 15 turns, 59435 tokens nocr
+  call r8-measure-S-code: 29 turns, 91605 tokens nocr
+  call r8-measure-judge: 8 turns, 37304 tokens nocr
+r8 measure  L10 P-build/S-code score 0.85 verified True easy False gain high
+  call r8-safety-S-data: 3 turns, 89223 tokens nocr
+  call r8-safety-judge: 12 turns, 25759 tokens nocr
+r8 safety   L9 P-cost/S-data score 0.80 verified True easy False gain medium
+round 8 done; curriculum {'walltime': 9, 'fleet': 9, 'pipeline': 10, 'cost': 9, 'safety': 10, 'measure': 10}
+Traceback (most recent call last):
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 291, in <module>
+    main()
+    ~~~~^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 287, in main
+    run(args) if args.cmd == "run" else report(args)
+    ~~~^^^^^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 244, in run
+    report(args)
+    ~~~~~~^^^^^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 261, in report
+    r, c = call(prompt, {"type": "object", "required": ["markdown"],
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         "properties": {"markdown": {"type": "string"}}},
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                out, "report", None, args.effort, args.model, 3)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 111, in call
+    p = subprocess.run(cmd, cwd=ENGINE, capture_output=True, text=True,
+                       stdin=subprocess.DEVNULL, timeout=3600)
+  File "/usr/lib/python3.14/subprocess.py", line 555, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1990, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 7] Argument list too long: '/home/ubuntu/.local/bin/claude-gw'

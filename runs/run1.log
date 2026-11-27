@@ -1,0 +1,143 @@
+r1 tokens   L2 P-build/S-data score 0.85 verified True easy False gain medium
+r1 hard     L2 P-cost/S-design score 0.88 verified True easy False gain medium
+r1 ops      L2 P-break/S-code score 0.88 verified True easy False gain medium
+r1 quality  L2 P-break/S-code score 0.85 verified True easy False gain medium
+r1 tools    L2 P-build/S-data score 0.80 verified True easy True gain low
+round 1 done; curriculum {'tokens': 3, 'quality': 3, 'hard': 3, 'tools': 3, 'ops': 3}
+r2 hard     L3 P-build/S-code score 0.85 verified True easy False gain high
+r2 tools    L3 P-break/S-design score 0.75 verified True easy False gain medium
+r2 quality  L3 P-cost/S-data score 0.86 verified True easy False gain medium
+r2 tokens   L3 P-break/S-design score 0.86 verified True easy False gain medium
+r2 ops      L3 P-cost/S-data score 0.85 verified True easy False gain medium
+round 2 done; curriculum {'tokens': 4, 'quality': 4, 'hard': 4, 'tools': 3, 'ops': 4}
+r3 hard     L4 P-break/S-data score 0.85 verified True easy False gain low
+r3 tokens   L4 P-cost/S-code score 0.82 verified True easy False gain high
+r3 quality  L4 P-build/S-design score 0.88 verified True easy False gain medium
+r3 ops      L4 P-build/S-design score 0.88 verified True easy False gain high
+r3 tools    L3 P-cost/S-code score 0.90 verified True easy False gain medium
+round 3 done; curriculum {'tokens': 5, 'quality': 5, 'hard': 5, 'tools': 4, 'ops': 5}
+r4 tokens   L5 P-build/S-data score 0.70 verified True easy False gain medium
+r4 quality  L5 P-break/S-code score 0.86 verified True easy False gain high
+r4 hard     L5 P-cost/S-design score 0.85 verified True easy False gain high
+r4 ops      L5 P-break/S-code score 0.86 verified True easy False gain high
+r4 tools    L4 P-build/S-data score 0.80 verified True easy False gain medium
+round 4 done; curriculum {'tokens': 5, 'quality': 6, 'hard': 6, 'tools': 5, 'ops': 6}
+REPORT.md written; 20 questions; 2022849 tokens nocr
+  call r5-hard-P-build: 6 turns, 32993 tokens nocr
+  call r5-quality-P-cost: 12 turns, 35095 tokens nocr
+  call r5-tokens-P-break: 16 turns, 59566 tokens nocr
+  call r5-hard-S-code: 19 turns, 82999 tokens nocr
+  call r5-hard-judge: 5 turns, 32809 tokens nocr
+r5 hard     L6 P-build/S-code score 0.86 verified True easy False gain medium
+  call r5-tools-P-break: 13 turns, 31341 tokens nocr
+  call r5-tokens-S-design: 24 turns, 80037 tokens nocr
+  call r5-tools-S-design: 24 turns, 62292 tokens nocr
+  call r5-tools-judge: 4 turns, 17597 tokens nocr
+r5 tools    L5 P-break/S-design score 0.88 verified True easy False gain high
+  call r5-ops-P-cost: 7 turns, 26758 tokens nocr
+  call r5-quality-S-data: 31 turns, 161548 tokens nocr
+  call r5-quality-judge: 6 turns, 24613 tokens nocr
+r5 quality  L6 P-cost/S-data score 0.80 verified True easy False gain high
+  call r5-ops-S-data: 21 turns, 62790 tokens nocr
+  call r5-ops-judge: 5 turns, 15174 tokens nocr
+r5 ops      L6 P-cost/S-data score 0.87 verified True easy False gain high
+  call r5-tokens-judge: 3 turns, 2423 tokens nocr
+r5 tokens   L5 P-break/S-design score 0.85 verified True easy False gain medium
+round 5 done; curriculum {'tokens': 6, 'quality': 7, 'hard': 7, 'tools': 6, 'ops': 7}
+  call r6-hard-P-break: 6 turns, 24831 tokens nocr
+  call r6-quality-P-build: 9 turns, 30155 tokens nocr
+  call r6-tokens-P-cost: 11 turns, 33120 tokens nocr
+  call r6-quality-S-design: 18 turns, 69603 tokens nocr
+  call r6-quality-judge: 5 turns, 17413 tokens nocr
+r6 quality  L7 P-build/S-design score 0.85 verified True easy False gain high
+  call r6-tools-P-cost: 5 turns, 30686 tokens nocr
+  call r6-tokens-S-code: 20 turns, 68762 tokens nocr
+  call r6-tokens-judge: 7 turns, 20320 tokens nocr
+r6 tokens   L6 P-cost/S-code score 0.80 verified True easy False gain medium
+  call r6-hard-S-data: 42 turns, 136946 tokens nocr
+  call r6-ops-P-build: 9 turns, 28315 tokens nocr
+  call r6-hard-judge: 10 turns, 23859 tokens nocr
+r6 hard     L7 P-break/S-data score 0.80 verified True easy False gain high
+  call r6-ops-S-design: 16 turns, 41517 tokens nocr
+  call r6-tools-S-code: 26 turns, 64227 tokens nocr
+  call r6-ops-judge: 5 turns, 16980 tokens nocr
+r6 ops      L7 P-build/S-design score 0.86 verified True easy False gain medium
+  call r6-tools-judge: 5 turns, 18166 tokens nocr
+r6 tools    L6 P-cost/S-code score 0.88 verified True easy False gain medium
+round 6 done; curriculum {'tokens': 7, 'quality': 8, 'hard': 8, 'tools': 7, 'ops': 8}
+  call r7-hard-P-cost: 6 turns, 26181 tokens nocr
+  call r7-tokens-P-build: 12 turns, 33443 tokens nocr
+  call r7-quality-P-break: 13 turns, 50791 tokens nocr
+  call r7-hard-S-design: 37 turns, 122092 tokens nocr
+  call r7-hard-judge: 4 turns, 28848 tokens nocr
+r7 hard     L8 P-cost/S-design score 0.80 verified True easy False gain medium
+  call r7-tools-P-build: 7 turns, 23600 tokens nocr
+  call r7-quality-S-code: 3 turns, 15359 tokens nocr
+  call r7-quality-judge: 9 turns, 33232 tokens nocr
+r7 quality  L8 P-break/S-code score 0.80 verified True easy False gain high
+  call r7-ops-P-break: 10 turns, 43695 tokens nocr
+  call r7-tokens-S-data: 13 turns, 30874 tokens nocr
+  call r7-ops-S-code: 3 turns, 36277 tokens nocr
+  call r7-ops-judge: 11 turns, 25311 tokens nocr
+r7 ops      L8 P-break/S-code score 0.86 verified True easy False gain high
+  call r7-tokens-judge: 3 turns, 27151 tokens nocr
+r7 tokens   L7 P-build/S-data score 0.80 verified True easy False gain high
+  call r7-tools-S-data: 30 turns, 139197 tokens nocr
+  call r7-tools-judge: 4 turns, 20407 tokens nocr
+r7 tools    L7 P-build/S-data score 0.86 verified True easy False gain medium
+round 7 done; curriculum {'tokens': 8, 'quality': 9, 'hard': 9, 'tools': 8, 'ops': 9}
+  call r8-quality-P-cost: 9 turns, 28434 tokens nocr
+  call r8-tokens-P-break: 11 turns, 34837 tokens nocr
+  call r8-quality-S-data: 35 turns, 166332 tokens nocr
+  call r8-quality-judge: 8 turns, 31956 tokens nocr
+r8 quality  L9 P-cost/S-data score 0.80 verified True easy False gain medium
+  call r8-tools-P-break: 7 turns, 11951 tokens nocr
+  call r8-hard-P-build: 3 turns, 5997 tokens nocr
+  call r8-tokens-S-design: 41 turns, 134063 tokens nocr ERROR
+  call r8-tools-S-design: 40 turns, 127934 tokens nocr
+  call r8-tools-judge: 5 turns, 19733 tokens nocr
+r8 tools    L8 P-break/S-design score 0.85 verified True easy False gain high
+  call r8-ops-P-cost: 11 turns, 32345 tokens nocr
+  call r8-ops-S-data: 27 turns, 60377 tokens nocr
+  call r8-ops-judge: 6 turns, 31585 tokens nocr
+r8 ops      L9 P-cost/S-data score 0.86 verified True easy False gain medium
+  call r8-hard-S-code: 8 turns, 150966 tokens nocr
+  call r8-hard-judge: 5 turns, 20943 tokens nocr
+r8 hard     L9 P-build/S-code score 0.85 verified True easy False gain high
+round 8 done; curriculum {'tokens': 8, 'quality': 10, 'hard': 10, 'tools': 9, 'ops': 10}
+Traceback (most recent call last):
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 291, in <module>
+    main()
+    ~~~~^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 287, in main
+    run(args) if args.cmd == "run" else report(args)
+    ~~~^^^^^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 244, in run
+    report(args)
+    ~~~~~~^^^^^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 261, in report
+    r, c = call(prompt, {"type": "object", "required": ["markdown"],
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         "properties": {"markdown": {"type": "string"}}},
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                out, "report", None, args.effort, args.model, 3)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Documents/Codex/private-project/design/parity-v2/drzero/drzero.py", line 111, in call
+    p = subprocess.run(cmd, cwd=ENGINE, capture_output=True, text=True,
+                       stdin=subprocess.DEVNULL, timeout=3600)
+  File "/usr/lib/python3.14/subprocess.py", line 555, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1990, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 7] Argument list too long: '/home/ubuntu/.local/bin/claude-gw'

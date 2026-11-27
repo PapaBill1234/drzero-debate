@@ -1,0 +1,4 @@
+{"t": 1795692655.450953, "tag": "r1-tools-P-build", "in": 3176, "out": 2018, "cc": 40683, "cr": 145472, "turns": 6, "error": false}
+{"t": 1795692862.891825, "tag": "r1-tools-S-data", "in": 3315, "out": 9115, "cc": 25370, "cr": 498536, "turns": 14, "error": false}
+{"t": 1795692886.9438987, "tag": "r1-tools-judge", "in": 3091, "out": 1615, "cc": 41518, "cr": 74177, "turns": 4, "error": false}
+{"t": 1795692927.6619072, "tag": "report", "in": 544, "out": 4364, "cc": 7236, "cr": 0, "turns": 2, "error": false}
